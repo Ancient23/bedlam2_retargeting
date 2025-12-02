@@ -36,6 +36,8 @@ _Find details below!_
 
 ### Dataset preparation (FBX files and CSV file)
 
+Use the [SMPL-X blender add-on](https://smpl-x.is.tue.mpg.de/) to export the `.fbx` files from the `.npz` files.
+
 1. Prepare 2 directories:
     - `animations` directory with `.fbx` files (source animations).
     - `bodies` directory with `.fbx` files (target body).
