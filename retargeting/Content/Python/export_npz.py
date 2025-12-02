@@ -69,7 +69,10 @@ def export_to_npz(anim_sequence, out_dir, betas_dict=None):
         unreal.log("Target name: " + target_name)
         # The betas_dict is a dictionary with the target_name as key
         if target_name in betas_dict:
+            unreal.log(" Found betas for target.")
             betas = betas_dict[target_name]
+        else:
+            unreal.log(" No betas found for target. Using zeros.")
 
     trans = []
     poses = []
