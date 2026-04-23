@@ -16,10 +16,6 @@
 			"Enabled": true
 		},
 		{
-			"Name": "RemoteControl",
-			"Enabled": true
-		},
-		{
 			"Name": "MovieRenderPipeline",
 			"Enabled": true
 		},
